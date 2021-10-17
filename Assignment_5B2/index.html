@@ -1,0 +1,86 @@
+<!DOCTYPE html>  
+<html lang="en">  
+    <head>  
+        <meta charset="utf-8" />  
+        <title>The converter</title>  
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700i&display=swap" rel="stylesheet">
+    </head>  
+
+    <body bgcolor="#A4FCFC">  
+        
+        <!-- Nav Bar -->
+        <nav>  
+            <li><a href="#sample">Sample Input & Outputs</a></li>
+            <li><a href="#complexity">Complexity</a></li>
+        </nav>
+        
+        <!-- Header -->
+        <header >  
+            <h1 style="text-align: center;"> Temprature Converter</h1>  
+        </header>
+
+        <hr>
+
+        <article>
+
+            <h2 style="text-align: center;">Problem Statement - Program to convert Centigrade into Fahrenheit</h2>
+            <h3 class="h2">Introduction:</h3>
+            <p>
+                Temprature can be measured by different units. Two of them are Fahrenheit(<sup>0</sup>F) and Centigrade(<sup>0</sup>C).
+            </p>
+            <small>
+                Here are some programs to convert Centigrade to Fahrenheit in C and Java language : 
+            </small>
+            <br>
+            <h3>Code </h3>
+            <pre>
+            <strong>C : </strong> 
+            <code>
+                #include < stdio.h >
+                int main()  {   
+                    <var>float fahrenheit<sub>c</sub>, centigrade<sub>c</sub>;</var>  
+                    <kbd>scanf("%d", &centigrade<sub>c</sub>);</kbd>
+                    fahrenheit<sub>c</sub> =( (centigrade<sub>c</sub>*9)/5)+32;  
+                    printf("\n\n Temperature in fahrenheit is:  %f",fahrenheit<sub>c</sub>);  
+                    return (0);
+                }
+            </code>
+            <strong><s>Python :</s></strong>
+            <strong>Java :</strong>
+
+            <code>
+                public class temperature  {  
+                public static void main (String args[]) { 
+                        <var>double fahrenheit<sub>java</sub>, centigrade<sub>java</sub>;</var>   
+                        centigrade<sub>java</sub>= 13;  
+                        fahrenheit<sub>java</sub> =((centigrade<sub>java</sub>*9)/5)+32;  
+                        System.out.println("Temperature in Fahrenheit is: "+fahrenheit<sub>java</sub>);  
+                    }} 
+                </code>
+            </pre>
+            <aside>   
+            <h4>Sample I/P & O/P</h4>
+            <pre>
+            <samp id="sample">
+            Input : 30
+            Output : 86
+                
+            Input : -20
+            Output : -4
+            </samp>    
+            </pre>
+            <h4>Variables Used : </h4>
+              <h5> In C : float fahrenheit<sub>c</sub>, centigrade<sub>c</sub>; </h5>
+              <h5> In Java : float fahrenheit<sub>java</sub>, centigrade<sub>java</sub>; </h5>
+            <h4 id="complexity">Complexity</h4>
+            <p>O(1)</p>
+        </aside>    
+                
+        </article>
+        <hr>
+        <footer>
+            <em>Website by - Niraja Kulkarni </em>
+            <h6>Thank you for visitiing..</h6>
+        </footer>
+    </body>
+</html>
