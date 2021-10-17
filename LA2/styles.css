@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  margin: 0 5%;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+  background-color: #F7DFF3;
+}
+
+section{
+    margin: 1em;
+    padding: 1em;
+}
+header, main, footer {
+    margin: 0 auto;
+}
+
+header {
+    padding: 2em;
+    /* text-align: center; */
+    background-size: cover;
+    background-position: fixed;
+    color: black;
+    text-align: center;
+}
+
+header section {
+   text-align: justify;
+   margin-left: 55%;;
+}
+
+header img {
+    max-width: 250px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 4%;
+}
+
+
+.txt-type > .txt {
+    border-right: 0.1rem solid #777;
+    color: maroon;
+}
+/* ---------------------------------------------Main & Education------------------------------------- */
+
+main {
+    max-width: 1140px;
+}
+
+main section:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+article {
+    padding:0 1em;
+    margin-bottom: 2em;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+h3, h4 {
+    font-weight: bold;
+}
+
+.school, .job-title {
+    text-transform: capitalize;
+  }
+  
+  .school span, .job-title span {
+    color: #889499;
+    text-decoration: underline;
+  }
+
+/* ---------------------------------------------Skills------------------------------------- */
+.nav-list li {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 30px;
+  }
+  
+  .nav-list{
+    display: inline-block;
+    margin-left: 20%;
+  }
+  
+  .nav-list a{
+    text-decoration: none;
+   text-align: right;
+   font-size: larger;
+   color:#4245d3;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .nav-list a:hover{
+    color: black;
+  }
+  .navs{
+    text-align: right;
+    display: inline;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  
+.course, .skills {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.course .title {
+    color: #509e98;
+    -ms-flex: 0 0 33.3%;
+    flex: 0 0 33.3%;
+    max-width: 33%;
+}
+
+.course .descrition {
+    -ms-flex: 0 0 66.6%;
+    flex: 0 0 66.6%;
+    max-width: 66.6%;
+}
+
+.course .descrition p {
+    padding-left: 1em;
+}
+
+.skills .column {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.skills .column ul, ul.job-description {
+    list-style-type: none;
+}
+
+.skills .column ul > li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #509e98;
+}
+
+#sangli-info{
+    width: 50%;
+    text-align: justify;
+    left:50%;
+}
+#map{
+    float: right;
+}
+#visit{
+    float: left;
+    margin-left: 8%;
+}
+#places{
+    margin-left: 40%;
+    text-align: justify;
+    margin-right: 10%;;
+}
+#placenm{
+    margin-left: 8%;
+}
+#visitplaces{
+    border: 1px solid #000;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ffffff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 45%;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color:#612558;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+     margin-top: 5%;
+      width: 50%;
+      margin-left: 25%;
+    border-radius: 5px;
+    /* background-color:#fab7ef; */
+    background-color: #92718d;
+    padding: 20px;
+  }
+  

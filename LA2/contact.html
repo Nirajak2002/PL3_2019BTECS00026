@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Contact Me</h1>
+    <p style="text-align: center;">Thank you for visiting my website. You can contact me if you have any queries. Don't forget fo give feedback about it !</p>
+    <div class="container">
+        
+        <form id="contact" class="form">
+            <div class="form-field">
+                <label for="firstname">First Name:</label>
+                <input type="text" name="firstname" id="firstname"placeholder="First Name" autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" autocomplete="off">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="Email ID"autocomplete="off">
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="purpose">Purpose to Contact:</label>
+                <textarea id="purpose" name="purpose" placeholder="Write your purpose" style="height:200px"></textarea>
+                <small></small>
+            </div>
+            <div class="form-field">
+                <label for="feedback">FeedBack about the Website</label>
+                <textarea id="feedback" name="feedback" placeholder="Please Give Feedback" style="height:200px"></textarea>
+                <small></small>
+            </div>
+            <div class="form-field">
+                <input style="color:black;" type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
